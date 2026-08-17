@@ -1,0 +1,68 @@
+{
+  "input_packet_csvs": [
+    "skipgo_paper_data/skipgo_from_scratch_completion_histograms_1000000_c50000/osmosis_osmosis-1_latest_1000000_c50000/completion/packet_completions.csv"
+  ],
+  "include_status": [
+    "acknowledged"
+  ],
+  "filter_counts": {
+    "input_rows": 25406,
+    "kept_rows": 24926,
+    "drop_status_timeout": 288,
+    "drop_status_not_found": 192
+  },
+  "overall_summary": {
+    "count": 24926,
+    "min": 1.667523,
+    "p50": 15.5063845,
+    "p90": 61.8541435,
+    "p95": 109.92062999999999,
+    "p99": 298.1115055,
+    "max": 1072329.160169,
+    "mean": 1048.6634410957633,
+    "median": 15.5063845
+  },
+  "dataset_summary_count": 1,
+  "route_summary_count": 82,
+  "group_by": [
+    "src_channel",
+    "contract_flow"
+  ],
+  "plots": [
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/completion_seconds_histogram_overall.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/completion_seconds_histogram_overall_logy.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/completion_seconds_histogram_overall_clipped_p99.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/dataset_histograms/osmosis_osmosis-1_latest_1000000_c50000.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/route_mean_completion_seconds_top_routes.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/route_histograms/01_osmosis_osmosis-1_latest_1000000_c50000_channel-21113_entry_point-_poolmanager_swap_adapter-_ibc_transfer_adapter.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/route_histograms/02_osmosis_osmosis-1_latest_1000000_c50000_channel-362_entry_point-_poolmanager_swap_adapter-_ibc_transfer_adapter.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/route_histograms/03_osmosis_osmosis-1_latest_1000000_c50000_channel-232_entry_point-_poolmanager_swap_adapter-_ibc_transfer_adapter.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/route_histograms/04_osmosis_osmosis-1_latest_1000000_c50000_channel-1634_entry_point-_poolmanager_swap_adapter-_ibc_transfer_adapter.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/route_histograms/05_osmosis_osmosis-1_latest_1000000_c50000_channel-6787_ibc_transfer_adapter-_entry_point-_poolmanager_swap_adapter.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/route_histograms/06_osmosis_osmosis-1_latest_1000000_c50000_channel-38946_entry_point-_poolmanager_swap_adapter-_ibc_transfer_adapter.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/route_histograms/07_osmosis_osmosis-1_latest_1000000_c50000_channel-184_entry_point-_poolmanager_swap_adapter-_ibc_transfer_adapter.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/route_histograms/08_osmosis_osmosis-1_latest_1000000_c50000_channel-108_entry_point-_poolmanager_swap_adapter-_ibc_transfer_adapter.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/route_histograms/09_osmosis_osmosis-1_latest_1000000_c50000_channel-6787_entry_point-_poolmanager_swap_adapter-_ibc_transfer_adapter.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/route_histograms/10_osmosis_osmosis-1_latest_1000000_c50000_channel-75016_entry_point-_poolmanager_swap_adapter-_ibc_transfer_adapter.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/route_histograms/11_osmosis_osmosis-1_latest_1000000_c50000_channel-73755_entry_point-_poolmanager_swap_adapter-_ibc_transfer_adapter.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/route_histograms/12_osmosis_osmosis-1_latest_1000000_c50000_channel-106313_entry_point-_poolmanager_swap_adapter-_ibc_transfer_adapter.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/route_histograms/13_osmosis_osmosis-1_latest_1000000_c50000_channel-73_entry_point-_poolmanager_swap_adapter-_ibc_transfer_adapter.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/route_histograms/14_osmosis_osmosis-1_latest_1000000_c50000_channel-144_entry_point-_poolmanager_swap_adapter-_ibc_transfer_adapter.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/route_histograms/15_osmosis_osmosis-1_latest_1000000_c50000_channel-1_entry_point-_poolmanager_swap_adapter-_ibc_transfer_adapter.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/route_histograms/16_osmosis_osmosis-1_latest_1000000_c50000_channel-522_entry_point-_poolmanager_swap_adapter-_ibc_transfer_adapter.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/route_histograms/17_osmosis_osmosis-1_latest_1000000_c50000_channel-750_entry_point-_ibc_transfer_adapter.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/route_histograms/18_osmosis_osmosis-1_latest_1000000_c50000_channel-188_entry_point-_poolmanager_swap_adapter-_ibc_transfer_adapter.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/route_histograms/19_osmosis_osmosis-1_latest_1000000_c50000_channel-2186_entry_point-_poolmanager_swap_adapter-_ibc_transfer_adapter.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/route_histograms/20_osmosis_osmosis-1_latest_1000000_c50000_channel-76971_entry_point-_poolmanager_swap_adapter-_ibc_transfer_adapter.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/route_histograms/21_osmosis_osmosis-1_latest_1000000_c50000_channel-143_entry_point-_poolmanager_swap_adapter-_ibc_transfer_adapter.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/route_histograms/22_osmosis_osmosis-1_latest_1000000_c50000_channel-106313_ibc_transfer_adapter-_entry_point-_poolmanager_swap_adapter.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/route_histograms/23_osmosis_osmosis-1_latest_1000000_c50000_channel-326_entry_point-_poolmanager_swap_adapter-_ibc_transfer_adapter.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/route_histograms/24_osmosis_osmosis-1_latest_1000000_c50000_channel-782_entry_point-_poolmanager_swap_adapter-_ibc_transfer_adapter.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/route_histograms/25_osmosis_osmosis-1_latest_1000000_c50000_channel-750_entry_point-_poolmanager_swap_adapter-_ibc_transfer_adapter.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/route_histograms/26_osmosis_osmosis-1_latest_1000000_c50000_channel-72_ibc_transfer_adapter-_entry_point-_poolmanager_swap_adapter.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/route_histograms/27_osmosis_osmosis-1_latest_1000000_c50000_channel-106275_entry_point-_poolmanager_swap_adapter-_ibc_transfer_adapter.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/route_histograms/28_osmosis_osmosis-1_latest_1000000_c50000_channel-72_entry_point-_poolmanager_swap_adapter-_ibc_transfer_adapter.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/route_histograms/29_osmosis_osmosis-1_latest_1000000_c50000_channel-78488_entry_point-_poolmanager_swap_adapter-_ibc_transfer_adapter.png",
+    "skipgo_paper_data/figures/osmosis_1000k_completion_time_histograms/route_histograms/30_osmosis_osmosis-1_latest_1000000_c50000_channel-750_ibc_transfer_adapter-_entry_point-_poolmanager_swap_adapter.png"
+  ]
+}
