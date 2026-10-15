@@ -1,0 +1,41 @@
+{
+  "source_archive": "skipgo_packet_evidence_20261004_114657_329910.zip",
+  "files": [
+    {
+      "file": "analyze_osmosis_skipgo_contracts_blockdata_v2.py",
+      "source_member": "skipgo_packet_evidence_20261004_114657_329910/files/analyze_osmosis_skipgo_contracts_blockdata_v2.py",
+      "bytes": 49958,
+      "sha256": "d471a33166a52c914ced11b0768f0dd7014f9025e6e2a0a5787f8c4b7ffe8b10"
+    },
+    {
+      "file": "estimate_skipgo_tx_completion_times.py",
+      "source_member": "skipgo_packet_evidence_20261004_114657_329910/files/estimate_skipgo_tx_completion_times.py",
+      "bytes": 39901,
+      "sha256": "d7d456b8758bf91a080839d520219dc6707a641fc5bc7b77f8805f2287c3a1a8"
+    },
+    {
+      "file": "plot_osmosis_skipgo_collected_data.py",
+      "source_member": "skipgo_packet_evidence_20261004_114657_329910/files/plot_osmosis_skipgo_collected_data.py",
+      "bytes": 19019,
+      "sha256": "223333d04feb6efb7454e768aa8ff5b12184bd5624c770496d2b8061ec55512a"
+    },
+    {
+      "file": "plot_skipgo_completion_time_histograms.py",
+      "source_member": "skipgo_packet_evidence_20261004_114657_329910/files/plot_skipgo_completion_time_histograms.py",
+      "bytes": 14911,
+      "sha256": "2728ce838ab1637dfe67903ad66c9d29bfa6766f5a897269cec9a2d49f89a739"
+    },
+    {
+      "file": "requirements.txt",
+      "source_member": "skipgo_packet_evidence_20261004_114657_329910/files/requirements.txt",
+      "bytes": 35,
+      "sha256": "0f8266c83e7fb2a1c851430abc17fad0a2aa3b9589838d8169701bd3998e2f05"
+    },
+    {
+      "file": "run_osmosis_skipgo_100k_block_chunks.py",
+      "source_member": "skipgo_packet_evidence_20261004_114657_329910/files/run_osmosis_skipgo_100k_block_chunks.py",
+      "bytes": 24651,
+      "sha256": "ebe58edcddb3c46e6b5d1324c4aa3cf61cad160f0ba49d301426cd35854e6220"
+    }
+  ]
+}
